@@ -43,7 +43,18 @@ hr {
 
 /* Main Grid Styles */
 
-
+.grid__container {
+  display: grid;
+  grid-template-areas: 
+    "header"
+    "main sidebar"
+    "other-news"
+    "smarter-living"
+    "features"
+    "discovery"
+    "most-popular"
+    "news"
+    "footer";
 
 /* Grid Section 1 - Flex Styles */
 
