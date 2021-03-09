@@ -128,6 +128,55 @@ hr {
 
 /* Grid Section 2 - Nested Grid Styles */
 
+.grid__section-2 {
+  display: grid;
+  grid-row: repeat(7);
+  grid-column: repeat(5, 1fr);
+  grid-template-areas:
+    "G2-1 G2-1"
+    "G2-2 G2-3"
+    "G2-4 G2-4"
+    "G2-5 G2-5"
+    "G2-6 G2-6"
+    "G2-7 G2-8"
+    "G2-9 G2-9";
+}
+
+.grid__item-2-1 {
+  grid-area: G2-1;
+}
+
+.grid__item-2-2 {
+  grid-area: G2-2;
+}
+
+.grid__item-2-3 {
+  grid-area: G2-3;
+}
+
+.grid__item-2-4 {
+  grid-area: G2-4;
+}
+
+.grid__item-2-5 {
+  grid-area: G2-5;
+}
+
+.grid__item-2-6 {
+  grid-area: G2-6;
+}
+
+.grid__item-2-7 {
+  grid-area: G2-7;
+}
+
+.grid__item-2-8 {
+  grid-area: G2-8;
+}
+
+.grid__item-2-9 {
+  grid-area: G2-9;
+}
 
 
 /* Grid Section 3 Styles */
