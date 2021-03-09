@@ -55,10 +55,56 @@ hr {
     "most-popular"
     "news"
     "footer";
+  grid-template-rows: auto;
+  grid-template-columns: 400px 200px;
+}
+
+.grid__section {
+  border: 1px solid #333333;
+}
+
 
 /* Grid Section 1 - Flex Styles */
 
+.grid__section-1 {
+  grid-area: header;
+}
 
+.grid__section-2 {
+  grid-area: main sidebar;
+}
+
+/* .grid__section-3 {
+  grid-area: sidebar;
+} */
+
+.grid__section-4 {
+  grid-area: other-news;
+}
+
+.grid__section-5 {
+  grid-area: smarter-living;
+}
+
+.grid__section-6 {
+  grid-area: features;
+}
+
+.grid__section-7 {
+  grid-area: discovery;
+}
+
+.grid__section-8 {
+  grid-area: most-popular;
+}
+
+.grid__section-9 {
+  grid-area: news;
+}
+
+.grid__section-10 {
+  grid-area: footer;
+}
 
 /* Grid Section 2 - Nested Grid Styles */
 
