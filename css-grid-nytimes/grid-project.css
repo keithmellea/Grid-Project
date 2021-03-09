@@ -46,15 +46,15 @@ hr {
 .grid__container {
   display: grid;
   grid-template-areas: 
-    "header"
+    "header header"
     "main sidebar"
-    "other-news"
-    "smarter-living"
-    "features"
-    "discovery"
-    "most-popular"
-    "news"
-    "footer";
+    "other-news other-news"
+    "smarter-living smarter-living"
+    "features features"
+    "discovery discovery"
+    "most-popular most-popular"
+    "news news"
+    "footer footer";
   grid-template-rows: auto;
   grid-template-columns: 400px 200px;
 }
@@ -63,20 +63,17 @@ hr {
   border: 1px solid #333333;
 }
 
-
-/* Grid Section 1 - Flex Styles */
-
 .grid__section-1 {
   grid-area: header;
 }
 
 .grid__section-2 {
-  grid-area: main sidebar;
+  grid-area: main;
 }
 
-/* .grid__section-3 {
+.grid__section-3 {
   grid-area: sidebar;
-} */
+}
 
 .grid__section-4 {
   grid-area: other-news;
@@ -104,6 +101,29 @@ hr {
 
 .grid__section-10 {
   grid-area: footer;
+}
+/* Grid Section 1 - Flex Styles */
+
+.flex-container-1 {
+  display: flex;
+  height: 85px;
+  /* flex-direction: inline; */
+} 
+
+.flex__item {
+  display: flex;
+  height: inherit;
+}
+
+.flex__item-1,
+.flex__item-2,
+.flex__item-3 {
+  flex-grow: 2;
+}
+
+.flex__item-4,
+.flex__item-5 {
+  flex-grow: .05;
 }
 
 /* Grid Section 2 - Nested Grid Styles */
