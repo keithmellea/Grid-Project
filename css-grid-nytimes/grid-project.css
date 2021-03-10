@@ -150,57 +150,134 @@ hr {
 .grid__item-2-1 {
   grid-area: G2-1;
   height: 480px;
+  background-color: pink;
   /* grid-column: 2fr, 3fr; */
 }
 
 .grid__item-2-2 {
   height: 200px;
   grid-area: G2-2;
+  background-color: lightblue;
   /* grid-column: 2fr; */
 }
 
 .grid__item-2-3 {
   height: 200px;
   grid-area: G2-3;
+  background-color: yellow;
   /* grid-column: 3fr; */
 }
 
 .grid__item-2-4 {
   height: 150px;
   grid-area: G2-4;
+  background-color: lightgreen;
 }
 
 .grid__item-2-5 {
   height: 350px;
   grid-area: G2-5;
+  background-color: darkblue;
 }
 
 .grid__item-2-6 {
   height: 480px;
   grid-area: G2-6;
+  background-color: gold;
 }
 
 .grid__item-2-7 {
   height: 200px;
   grid-area: G2-7;
+  background-color: violet;
 }
 
 .grid__item-2-8 {
   height: 200px;
   grid-area: G2-8;
+  background-color: lightgray;
 }
 
 .grid__item-2-9 {
   height: 200px;
   grid-area: G2-9;
+  background-color: lightsteelblue;
 }
 
 
 /* Grid Section 3 Styles */
 
+.grid__section-3 {
+  display: grid;
+  grid-row: auto;
+  grid-column: 1fr 1fr;
+  grid-template-areas: 
+  "G3-1 G3-1"
+  "G3-2 G3-2"
+  "G3-3 G3-4"
+  "G3-5 G3-5"
+  "G3-6 G3-6"
+  "G3-7 G3-7";
+}
+
+.grid__item-3-1 {
+  height: 200px;
+  grid-area: G3-1;
+  background-color: lightsteelblue;
+}
+
+.grid__item-3-2 {
+  height: 290px;
+  grid-area: G3-2;
+  background-color: lightslategrey;
+}
+
+.grid__item-3-3 {
+  height: 760px;
+  grid-area: G3-3;
+  background-color: lightsteelblue;
+}
+
+.grid__item-3-4 {
+  height: 760px;
+  grid-area: G3-4;
+  background-color: lightslategray;
+}
+
+.grid__item-3-5 {
+  height: 330px;
+  grid-area: G3-5;
+  background-color: lightsteelblue;
+}
+
+.grid__item-3-6 {
+  height: 240px;
+  grid-area: G3-6;
+  background-color: lightslategray;
+}
+
+.grid__item-3-7 {
+  height: 240px;
+  grid-area: G3-7;
+  background-color: lightsteelblue;
+}
 
 
 /* Remaining Section Styles */
+
+.grid__section-4 {
+  height: 590px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "G4-1 G4-1 G4-2 G4-2 G4-3"
+    "G4-1 G4-1 G4-2 G4-2 G4-3"
+    "G4-1 G4-1 G4-3 G4-3 G4-3"
+    "G4-1 G4-1 G4-2 G4-2 G4-3"
+    "G4-1 G4-1 G4-2 G4-2 G4-3"
+    "G4-1 G4-1 G4-2 G4-2 G4-3";
+}
 
 
 
